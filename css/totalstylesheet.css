@@ -1,0 +1,183 @@
+body{
+	background-color: #e9dfd4;
+} 
+
+h1{ 
+
+	font-family:'Playfair Display SC', serif;
+	font-weight: lighter;
+	font-size: 40px;
+	color: #25523B; 
+	text-align: center;
+} 
+
+h4{
+	font-family: "comfortaa", sans-serif;
+	font-weight: lighter;
+	color: #25523B; 
+	text-align: center;
+}
+
+h3{
+	font-family: "comfortaa", sans-serif;
+	font-weight: lighter;
+	color: #25523B; 
+	font-size: 17px;
+
+} 
+
+p{
+	font-family: "roboto", sans-serif; 
+	color: #ac8772; 
+	font-size: 14px;
+	font-weight: normal;
+} 
+
+button{
+  color: #ac8772;
+  margin: 10px;
+  background: none;
+  border: solid 2px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  /* may change to sticky along with elements above depending on how much you scroll on each page - TBD */
+  border-color: transparent;  
+  font-family: "roboto", sans-serif; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);   
+ }
+
+/* trying to make word bold on click  */
+#onhome: onClick {
+  color: white;
+  font-weight: bolder;
+}
+
+.aboutmegrid{
+	display: grid ;
+	width: 50%;
+	margin: auto;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 10px;
+	grid-template-areas: "aboutmephoto aboutmetext";
+}
+.aboutmephoto{
+	padding: 10px;
+	padding-top: 80px;
+	grid-area: aboutmephoto;
+
+}
+.aboutmetext{
+	padding: 10px;
+	padding-top: 60px;
+	width: 350px;
+	grid-area: aboutmetext;
+
+}
+/*publishedworks styling*/
+
+.publishedworksgrid{
+	display: grid ;
+	width: 50%;
+	margin: auto;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 10px;
+	grid-template-areas: "published1photo published2photo";
+}
+.published1photo{
+	padding: 5px;
+	padding-top: 20px;
+	grid-area: published1photo;
+
+}
+.published2photo{
+	padding: 5px;
+	padding-top: 80px;
+	grid-area: published2photo;
+
+}
+
+a{
+	font-family: "roboto", sans-serif; 
+	color: #25523B; 
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.description{
+	font-family: "roboto", sans-serif; 
+	font-weight: lighter;
+	color: #ac8772; 
+	font-size: 14px;
+	font-weight: normal;
+}
+.photo{
+	font-family: "roboto", sans-serif; 
+	font-weight: lighter;
+	color: #ac8772; 
+	font-size: 12px;
+	font-weight: normal;
+}
+.pagetitle{
+	font-family: "comfortaa", sans-serif;
+	font-weight: lighter;
+	color: #25523B; 
+	font-size: 17px;
+	margin-top: 100px;
+	text-align: center;
+
+}
+/*about me styling*/
+
+.aboutmedescription{
+	font-family: "roboto", sans-serif;
+	font-weight: lighter;
+	color: #25523B; 
+	text-align: center;
+	font-size: 14px;
+	margin: 100px;
+	padding-left: 250px;
+	padding-right: 250px;
+} 
+
+.aboutmedescription{
+	font-family: "roboto", sans-serif;
+	font-weight: lighter;
+	color: #25523B; 
+	text-align: center;
+	font-size: 14px;
+	margin: 100px;
+	padding-left: 250px;
+	padding-right: 250px;
+} 
+
+/*contact me styling */
+.howtocontactme{
+	font-family: "roboto", sans-serif;
+	font-weight: lighter;
+	color: #25523B; 
+	text-align: center;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.contactmetitle{
+	font-family: "comfortaa", sans-serif;
+	font-weight: lighter;
+	color: #25523B; 
+	font-size: 17px;
+	margin-top: 100px;
+	text-align: center;
+
+} 
+
